@@ -22,29 +22,38 @@ cd CV-WSL-MIS
 ```
 cd code
 ```
+You can choose model, dataset, experiment name, iteration number, batch size and etc in your command line, or leave it with default option.
 
-Uncertainty Aware Mean Teacher, Rotation, Weakly Supervised Learning -> [[Paper Link](https://www.sciencedirect.com/science/article/pii/S0031320321005215)]
+Uncertainty Aware Mean Teacher, Rotation -> [[Paper Link](https://www.sciencedirect.com/science/article/pii/S0031320321005215)]
 ```
 python train_weakly_supervised_ustm_2D.py 
 ```
-Uncertainty Aware Mean Teacher, Rotation, Weakly Supervised Learning, Vision Transformer -> [[Paper Link](https://ieeexplore.ieee.org/abstract/document/10195028)]
+Uncertainty Aware Mean Teacher, Rotation, Vision Transformer -> [[Paper Link](https://ieeexplore.ieee.org/abstract/document/10195028)]
 
 ```
 python train_weakly_supervised_UAMT_ViT_2D.py 
 ```
 
-Mean Teacher, Cross Pseudo Supervision, CNN, Vision Transformer, Weakly Supervised Learning -> [[Paper Link](https://link.springer.com/chapter/10.1007/978-3-031-44992-5_1)]
+Mean Teacher, Cross Pseudo Supervision, CNN, Vision Transformer -> [[Paper Link](https://link.springer.com/chapter/10.1007/978-3-031-44992-5_1)]
 ```
 python train_weakly_supervised_DCDPL_2D.py 
 ```
+Gated CRF Loss -> [[Link](https://arxiv.org/abs/1906.04651)]
+```
+python train_weakly_supervised_pCE_GatedCRFLoss_2D.py 
+```
 
 3. Test the model
+
+Test CNN-based model
 ```
-python test_XXX.py -root_path ../data/XXX --exp ACDC/XXX -model XXX --num_classes 4 --labeled_num XXX
+python test_2D_fully.py -root_path ../data/XXX --exp ACDC/XXX
 ```
 
-You can choose model, dataset, experiment name, iteration number, batch size and etc in your command line, or leave it with default option.
-
+Test ViT-based model
+```
+python test_2D_fully_ViT.py -root_path ../data/XXX --exp ACDC/XXX
+```
 
 ## References
 
@@ -63,4 +72,4 @@ Please consider citing the following works, if you use in your research/projects
 
 ## Acknowledgement
 
-This code is mainly borrowed WSL4MIS.
+This code is mainly borrowed WSL4MIS, UNet, SwinUNet, USTM, and etc.
