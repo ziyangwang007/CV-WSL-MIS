@@ -2,7 +2,7 @@
 Exploring CNN and ViT for Weakly-Supervised Medical Image Segmentation
 
 ## Requirements
-* [Pytorch]
+* Pytorch
 * Some basic python packages such as Numpy, Scikit-image, SimpleITK, Scipy ......
 
 ## DataSets
