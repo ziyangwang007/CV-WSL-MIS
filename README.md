@@ -23,16 +23,17 @@ cd CV-WSL-MIS
 cd code
 ```
 
-[Paper Link](https://www.sciencedirect.com/science/article/pii/S0031320321005215)
+Uncertainty Aware Mean Teacher, Rotation, Weakly Supervised Learning -> [[Paper Link](https://www.sciencedirect.com/science/article/pii/S0031320321005215)]
 ```
 python train_weakly_supervised_ustm_2D.py 
 ```
+Uncertainty Aware Mean Teacher, Rotation, Weakly Supervised Learning, Vision Transformer -> [[Paper Link](https://ieeexplore.ieee.org/abstract/document/10195028)]
 
 ```
-python train_weakly_supervised_ustm_2D_ViT.py 
+python train_weakly_supervised_UAMT_ViT_2D.py 
 ```
 
-[Paper Link](https://link.springer.com/chapter/10.1007/978-3-031-44992-5_1)
+Mean Teacher, Cross Pseudo Supervision, CNN, Vision Transformer, Weakly Supervised Learning -> [[Paper Link](https://link.springer.com/chapter/10.1007/978-3-031-44992-5_1)]
 ```
 python train_weakly_supervised_DCDPL_2D.py 
 ```
