@@ -1,1 +1,1 @@
-download pre-trained model to this folder, link:https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY
+download pre-trained model to this folder, link:https://drive.google.com/file/d/14RzbbBDjbKbgr0ordKlWbb69EFkHuplr/view?usp=drive_link
