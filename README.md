@@ -6,7 +6,7 @@ Exploring CNN and ViT for Weakly-Supervised Medical Image Segmentation
 * Some basic python packages such as Numpy, Scikit-image, SimpleITK, Scipy ......
 
 ## DataSets
-We use the ACDC dataset which you can find here [Official](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html). The pre-processed dataset i.e. scribble can be download via [Google Drive](https://drive.google.com/file/d/1XR_Id0wdvXY9QeKtdOdgJHKVJ-nVr2j1/view?usp=sharing) and put in data folder. You can also simulate the scribble annotations with other dataset with the 'code/scribbles_generator.py' file.
+We use the ACDC dataset which you can find here [Official](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html). The pre-processed dataset i.e. scribble can be download via [Google Drive](https://drive.google.com/file/d/1XR_Id0wdvXY9QeKtdOdgJHKVJ-nVr2j1/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1UX5NqeIc8RL6io-FKFTcxQ) with code 'u8bh' and put in 'data' folder. You can also simulate the scribble annotations with other dataset with the 'code/scribbles_generator.py' file.
 
 
 ## Usage
